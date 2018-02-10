@@ -4,6 +4,6 @@ namespace CreativeCats.Core.Abstractions
 {
     public interface ISQLite
     {
-        SQLiteConnection GetConnection();
+        SQLiteAsyncConnection GetAsyncConnection();
     }
 }
