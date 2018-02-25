@@ -1,10 +1,9 @@
 ﻿using CreativeCats.Core.Abstractions;
+using SQLite;
 using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-using SQLite;
 using System.Linq.Expressions;
+using System.Threading.Tasks;
 
 namespace CreativeCats.Core.Data
 {
